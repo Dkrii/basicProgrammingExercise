@@ -3,7 +3,7 @@ goods = f"""
 2. bedak 20pcs
 3. parpum 20pcs"""
 print(goods)
-user = int(input("masukan barang yang ingin kamu beli :"))
+user = int(input("masukan barang yang ingin kamu beli(1/2/3):"))
 if user == 1 :
     print("Harga dari Lipstik Rp. 15,000/pcs")
     pengguna = int(input("Berapa banyak lipstic yang ingin kamu beli :"))
